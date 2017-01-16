@@ -239,11 +239,12 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="PID Settings.ctl" Type="VI" URL="../../Shared/PID Settings.ctl"/>
-			<Item Name="Save Settings To DB.vi" Type="VI" URL="../../Shared/Save Settings To DB.vi"/>
-			<Item Name="Save PID to DB.vi" Type="VI" URL="../../Shared/Save PID to DB.vi"/>
 			<Item Name="Robot Saved.vi" Type="VI" URL="../../Shared/Robot Saved.vi"/>
 			<Item Name="Load Settings from DB.vi" Type="VI" URL="../../Shared/Load Settings from DB.vi"/>
-			<Item Name="Load PID from DB.vi" Type="VI" URL="../../Shared/Load PID from DB.vi"/>
+			<Item Name="Load Save Info.ctl" Type="VI" URL="../../Shared/Load Save Info.ctl"/>
+			<Item Name="Save Load Settings.vi" Type="VI" URL="../../Shared/Save Load Settings.vi"/>
+			<Item Name="Save Load PID.vi" Type="VI" URL="../../Shared/Save Load PID.vi"/>
+			<Item Name="Save Settings To DB.vi" Type="VI" URL="../../Shared/Save Settings To DB.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
