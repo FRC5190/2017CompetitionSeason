@@ -23,6 +23,7 @@
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision/Vision Processing.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
+		<Item Name="Save Load Vision.vi" Type="VI" URL="../../Shared/Save Load Vision.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
@@ -260,14 +261,15 @@
 			<Item Name="Save Load Settings.vi" Type="VI" URL="../../Shared/Save Load Settings.vi"/>
 			<Item Name="Save Load PID.vi" Type="VI" URL="../../Shared/Save Load PID.vi"/>
 			<Item Name="Save Settings To DB.vi" Type="VI" URL="../../Shared/Save Settings To DB.vi"/>
-			<Item Name="Camera Types.ctl" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/FRC/roboRIO/Vision/2017 Vision Example/Vision Support Code/Camera Types.ctl"/>
+			<Item Name="Camera Types.ctl" Type="VI" URL="../Vision Support Code/Camera Types.ctl"/>
 			<Item Name="Sorted Particle Report 2016.vi" Type="VI" URL="../Vision Support Code/Sorted Particle Report 2016.vi"/>
-			<Item Name="Rectangle Comparison.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/FRC/roboRIO/Vision/2017 Vision Example/Vision Support Code/Rectangle Comparison.vi"/>
+			<Item Name="Rectangle Comparison.vi" Type="VI" URL="../Vision Support Code/Rectangle Comparison.vi"/>
 			<Item Name="Cull and Group.vi" Type="VI" URL="../Vision Support Code/Cull and Group.vi"/>
-			<Item Name="Get camera FOVs.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/FRC/roboRIO/Vision/2017 Vision Example/Vision Support Code/Get camera FOVs.vi"/>
+			<Item Name="Get camera FOVs.vi" Type="VI" URL="../Vision Support Code/Get camera FOVs.vi"/>
 			<Item Name="Compute DistanceToTarget2.vi" Type="VI" URL="../Vision Support Code/Compute DistanceToTarget2.vi"/>
-			<Item Name="Normalize Coordinates.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2016/examples/FRC/roboRIO/Vision/2017 Vision Example/Vision Support Code/Normalize Coordinates.vi"/>
+			<Item Name="Normalize Coordinates.vi" Type="VI" URL="../Vision Support Code/Normalize Coordinates.vi"/>
 			<Item Name="Label Targets2.vi" Type="VI" URL="../Vision Support Code/Label Targets2.vi"/>
+			<Item Name="Dashboard Data.ctl" Type="VI" URL="../../Shared/Dashboard Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
