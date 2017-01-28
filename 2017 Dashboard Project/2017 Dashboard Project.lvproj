@@ -23,7 +23,6 @@
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision/Vision Processing.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
-		<Item Name="Save Load Vision.vi" Type="VI" URL="../../Shared/Save Load Vision.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
@@ -270,6 +269,8 @@
 			<Item Name="Normalize Coordinates.vi" Type="VI" URL="../Vision Support Code/Normalize Coordinates.vi"/>
 			<Item Name="Label Targets2.vi" Type="VI" URL="../Vision Support Code/Label Targets2.vi"/>
 			<Item Name="Dashboard Data.ctl" Type="VI" URL="../../Shared/Dashboard Data.ctl"/>
+			<Item Name="Save Load Vision.vi" Type="VI" URL="../../Shared/Save Load Vision.vi"/>
+			<Item Name="Vision Data.ctl" Type="VI" URL="../../Shared/Vision Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
