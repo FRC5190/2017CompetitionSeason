@@ -136,12 +136,27 @@ AddOutputFilter chunkFilter
 		<Item Name="2016 Shooter" Type="Folder" URL="../2016 Shooter">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Lidar" Type="Folder">
+			<Item Name="Lidar Global.vi" Type="VI" URL="../Lidar/Lidar Global.vi"/>
+			<Item Name="Lidar Type Def.ctl" Type="VI" URL="../Lidar/Lidar Type Def.ctl"/>
+			<Item Name="Lidar Subsystem.vi" Type="VI" URL="../Lidar/Lidar Subsystem.vi"/>
+			<Item Name="Lidar Read.vi" Type="VI" URL="../Lidar/Lidar Read.vi"/>
+			<Item Name="Lidar Open.vi" Type="VI" URL="../Lidar/Lidar Open.vi"/>
+		</Item>
+		<Item Name="Solenoids" Type="Folder">
+			<Item Name="High Gear.vi" Type="VI" URL="../Solenoids/High Gear.vi"/>
+			<Item Name="Low Gear.vi" Type="VI" URL="../Solenoids/Low Gear.vi"/>
+			<Item Name="Open Gear Holder.vi" Type="VI" URL="../Solenoids/Open Gear Holder.vi"/>
+			<Item Name="Close Gear Holder.vi" Type="VI" URL="../Solenoids/Close Gear Holder.vi"/>
+		</Item>
+		<Item Name="Ball Shooter" Type="Folder" URL="../Ball Shooter">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="SubSystems.vi" Type="VI" URL="../SubSystems.vi"/>
-		<Item Name="Dashboard Connected.vi" Type="VI" URL="../../Shared/Dashboard Connected.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -681,6 +696,7 @@ AddOutputFilter chunkFilter
 				<Item Name="FRIC_navX_Internal_USB_ProcessingLoop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Processing Loop/FRIC_navX_Internal_USB_ProcessingLoop.vi"/>
 				<Item Name="WPI_ServoGetAngle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoGetAngle.vi"/>
 				<Item Name="WPI_ServoGetPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoGetPosition.vi"/>
+				<Item Name="WPI_I2CWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CWrite.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -714,6 +730,9 @@ AddOutputFilter chunkFilter
 			<Item Name="Save Load Vision.vi" Type="VI" URL="../../Shared/Save Load Vision.vi"/>
 			<Item Name="Save Load String.vi" Type="VI" URL="../../Shared/Save Load String.vi"/>
 			<Item Name="Save Load Number.vi" Type="VI" URL="../../Shared/Save Load Number.vi"/>
+			<Item Name="Shooter Settings.ctl" Type="VI" URL="../../Shared/Shooter Settings.ctl"/>
+			<Item Name="Save Load Shooter Settings.vi" Type="VI" URL="../../Shared/Save Load Shooter Settings.vi"/>
+			<Item Name="Dashboard Connected.vi" Type="VI" URL="../../Shared/Dashboard Connected.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -733,7 +752,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2136F65-FD06-4AC9-A317-10E44B9EF7A4}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
