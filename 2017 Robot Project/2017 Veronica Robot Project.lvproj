@@ -733,6 +733,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Shooter Settings.ctl" Type="VI" URL="../../Shared/Shooter Settings.ctl"/>
 			<Item Name="Save Load Shooter Settings.vi" Type="VI" URL="../../Shared/Save Load Shooter Settings.vi"/>
 			<Item Name="Dashboard Connected.vi" Type="VI" URL="../../Shared/Dashboard Connected.vi"/>
+			<Item Name="AutoPositions Type Def.ctl" Type="VI" URL="../../Shared/AutoPositions Type Def.ctl"/>
+			<Item Name="Vision Data.ctl" Type="VI" URL="../../Shared/Vision Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -752,7 +754,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2136F65-FD06-4AC9-A317-10E44B9EF7A4}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
