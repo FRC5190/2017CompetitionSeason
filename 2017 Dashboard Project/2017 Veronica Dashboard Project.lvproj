@@ -28,10 +28,6 @@
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Vision Processing Test.vi" Type="VI" URL="../Vision/Vision Processing Test.vi"/>
-		<Item Name="Save Load Number.vi" Type="VI" URL="../../Shared/Save Load Number.vi"/>
-		<Item Name="Shooter Settings.ctl" Type="VI" URL="../../Shared/Shooter Settings.ctl"/>
-		<Item Name="Save Load Shooter Settings.vi" Type="VI" URL="../../Shared/Save Load Shooter Settings.vi"/>
-		<Item Name="AutoPositions Type Def.ctl" Type="VI" URL="../../Shared/AutoPositions Type Def.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
@@ -286,6 +282,12 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Save Load String.vi" Type="VI" URL="../../Shared/Save Load String.vi"/>
+			<Item Name="Boiler Points To Distance.vi" Type="VI" URL="../Boiler Points To Distance.vi"/>
+			<Item Name="AutoPositions Type Def.ctl" Type="VI" URL="../../Shared/AutoPositions Type Def.ctl"/>
+			<Item Name="AutoEndPosition Type Def.ctl" Type="VI" URL="../../Shared/AutoEndPosition Type Def.ctl"/>
+			<Item Name="Shooter Settings.ctl" Type="VI" URL="../../Shared/Shooter Settings.ctl"/>
+			<Item Name="Save Load Number.vi" Type="VI" URL="../../Shared/Save Load Number.vi"/>
+			<Item Name="Save Load Shooter Settings.vi" Type="VI" URL="../../Shared/Save Load Shooter Settings.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
