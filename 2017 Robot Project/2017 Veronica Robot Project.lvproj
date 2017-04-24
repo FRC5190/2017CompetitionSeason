@@ -161,6 +161,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="SubSystems.vi" Type="VI" URL="../SubSystems.vi"/>
 		<Item Name="Shooter Speed Type Def.ctl" Type="VI" URL="../../Shared/Shooter Speed Type Def.ctl"/>
+		<Item Name="Gear Mech Settings.ctl" Type="VI" URL="../../Shared/Gear Mech Settings.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -748,6 +749,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Vision Data.ctl" Type="VI" URL="../../Shared/Vision Data.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="AutoEndPosition Type Def.ctl" Type="VI" URL="../../Shared/AutoEndPosition Type Def.ctl"/>
+			<Item Name="Save Load Gear Mech Settings.vi" Type="VI" URL="../../Shared/Save Load Gear Mech Settings.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -766,7 +768,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2136F65-FD06-4AC9-A317-10E44B9EF7A4}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">96</Property>
+				<Property Name="Bld_version.build" Type="Int">113</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>

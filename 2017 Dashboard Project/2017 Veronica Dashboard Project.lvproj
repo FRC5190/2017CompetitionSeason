@@ -29,6 +29,7 @@
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Vision Processing Test.vi" Type="VI" URL="../Vision/Vision Processing Test.vi"/>
 		<Item Name="Cull and Group.vi" Type="VI" URL="../Vision Support Code/Cull and Group.vi"/>
+		<Item Name="Save Load Gear Mech Settings.vi" Type="VI" URL="../../Shared/Save Load Gear Mech Settings.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
@@ -290,6 +291,7 @@
 			<Item Name="Shooter Settings.ctl" Type="VI" URL="../../Shared/Shooter Settings.ctl"/>
 			<Item Name="Save Load Number.vi" Type="VI" URL="../../Shared/Save Load Number.vi"/>
 			<Item Name="Save Load Shooter Settings.vi" Type="VI" URL="../../Shared/Save Load Shooter Settings.vi"/>
+			<Item Name="Gear Mech Settings.ctl" Type="VI" URL="../../Shared/Gear Mech Settings.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
@@ -306,7 +308,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F12754D6-B5E0-496F-B50C-3EDB6F368199}</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">17</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
